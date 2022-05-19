@@ -7,4 +7,7 @@
 </header>
 
 <style>
+    header {
+        padding-bottom: 1em;
+    }
 </style>
