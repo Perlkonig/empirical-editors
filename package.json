@@ -14,7 +14,8 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "local": "npm run build && npm run start"
+    "local": "npm run build && npm run start",
+    "nfsn": "cp -r public/* /home/public/scratch"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
