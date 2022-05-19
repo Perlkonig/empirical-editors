@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { research } from "../stores/researchStore";
+    import { research } from "../stores/readResearch";
     const link2href = (link: string): string => {
         if (link.startsWith("doi:")) {
             return "https://dx.doi.org/" + link.slice(4);
@@ -39,7 +39,7 @@
                             <td>{rec.year}</td>
                             <td>{rec.authors.join(", ")}</td>
                             <td>{rec.abstract.slice(0, 100)}&hellip;</td>
-                            <td>{(new Date(rec.dateAdded)).toISOString().slice(0, 9)}</td>
+                            <td>{(new Date(rec.dateAdded)).toISOString().slice(0, 10)}</td>
                         </tr>
                     {/each}
                 </tbody>
