@@ -3,7 +3,7 @@
 </script>
 
 <header>
-    <h1>{siteName}</h1>
+    <h1 class="title is-1">{siteName}</h1>
 </header>
 
 <style>
