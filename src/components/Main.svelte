@@ -1,5 +1,12 @@
 <script lang="ts">
     import { research } from "../stores/researchStore";
+    const link2href = (link: string) => {
+        if (link.startsWith("doi:")) {
+            return "https://dx.doi.org/" + link.slice(4);
+        } else {
+            return link;
+        }
+    };
 </script>
 
 <main>
@@ -28,7 +35,7 @@
                 <tbody>
                     {#each $research as rec (rec.title)}
                         <tr>
-                            <td>{rec.title}</td>
+                            <td><a href="{link2href(rec.title)}">{rec.title}</a></td>
                             <td>{rec.year}</td>
                             <td>&nbsp;</td>
                             <td>&nbsp</td>
