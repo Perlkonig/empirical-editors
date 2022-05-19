@@ -1,11 +1,14 @@
 <script lang="ts">
     import { research } from "../stores/researchStore";
-    const link2href = (link: string) => {
+    const link2href = (link: string): string => {
+        let newlink: string;
         if (link.startsWith("doi:")) {
-            return "https://dx.doi.org/" + link.slice(4);
+            newlink = "https://dx.doi.org/" + link.slice(4);
         } else {
-            return link;
+            newlink = link;
         }
+        console.log(link + " => " + newlink);
+        return newlink;
     };
 </script>
 
