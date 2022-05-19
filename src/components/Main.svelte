@@ -3,7 +3,7 @@
 </script>
 
 <main>
-    <section class="section id-medium content" id="introText">
+    <section class="content" id="introText">
         <p>This is a list of empirical research related to topics of interest to editors.</p>
 
         <p>Some of editing is purely arbitrary (style), but most of it is rooted in not just grammar but what we have learned about how readers receive different types of material. When defending what might feel to an author as an arbitrary call, it can be helpful to have robust, defensible research to back you up. Hopefully this will help.</p>
@@ -12,7 +12,7 @@
 
         <hr>
     </section>
-    <section class="section id-medium content">
+    <section class="content">
         {#if $research != null}
             <p>{$research.length} records found.</p>
             <table class="table">
