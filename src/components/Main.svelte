@@ -38,8 +38,8 @@
                             <td><a href="{link2href(rec.link)}" target="_NEW">{rec.title}</a></td>
                             <td>{rec.year}</td>
                             <td>{rec.authors.join(", ")}</td>
-                            <td>{rec.abstract.slice(0, 50)}&ellip;</td>
-                            <td>{(new Date(rec.dateAdded)).toISOString()}</td>
+                            <td>{rec.abstract.slice(0, 100)}&hellip;</td>
+                            <td>{(new Date(rec.dateAdded)).toISOString().slice(0, 9)}</td>
                         </tr>
                     {/each}
                 </tbody>
