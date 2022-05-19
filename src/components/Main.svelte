@@ -35,11 +35,11 @@
                 <tbody>
                     {#each $research as rec (rec.title)}
                         <tr>
-                            <td><a href="{link2href(rec.link)}">{rec.title}</a></td>
+                            <td><a href="{link2href(rec.link)}" target="_NEW">{rec.title}</a></td>
                             <td>{rec.year}</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp</td>
-                            <td>{rec.dateAdded}</td>
+                            <td>{rec.authors.join(", ")}</td>
+                            <td>{rec.abstract.slice(0, 50)}&ellip;</td>
+                            <td>{(new Date(rec.dateAdded)).toISOString()}</td>
                         </tr>
                     {/each}
                 </tbody>
