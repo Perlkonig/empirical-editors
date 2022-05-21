@@ -1,5 +1,4 @@
 <script lang="ts">
-    import ResearchTable from "./ResearchTable.svelte";
     import SearchForm from "./SearchForm.svelte";
     import DataTabs from "./DataTabs.svelte";
 </script>
