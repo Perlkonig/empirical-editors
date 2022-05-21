@@ -1,6 +1,7 @@
 import { readable } from "svelte/store";
 
 export type ResearchRecord = {
+    id: string;
     title: string;
     authors: string[];
     year: number;
@@ -12,7 +13,7 @@ export type ResearchRecord = {
 export const research = readable([] as ResearchRecord[], (set) => {
     fetch('./data/research.json').then((data) => data.json()).then((rec) => {
         const list: ResearchRecord[] = rec;
-        set(list);
+        set(list.sort((a, b) => {return (a.title < b.title) ? -1 : 1;}));
     }).catch(() => {
         set(null);
     })

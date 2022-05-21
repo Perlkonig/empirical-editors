@@ -1,12 +1,7 @@
 <script lang="ts">
-    import { research } from "../stores/readResearch";
-    const link2href = (link: string): string => {
-        if (link.startsWith("doi:")) {
-            return "https://dx.doi.org/" + link.slice(4);
-        } else {
-            return link;
-        }
-    };
+    import ResearchTable from "./ResearchTable.svelte";
+    import SearchForm from "./SearchForm.svelte";
+    import DataTabs from "./DataTabs.svelte";
 </script>
 
 <main>
@@ -17,38 +12,15 @@
 
         <p>It's trivial to find websites and style guides that advocate various approaches, but finding real evidence—primary sources—can be challenging. This list tries to only provide such sources. It is provided as is. Some of these studies may contradict each other or contradict some pet practice. Some are quite old. Perhaps some have been debunked. As always, use science responsibly.</p>
 
+        <p>Links are to permanent landing pages wherever possible (DOIs). The full text of many of these articles can be had through your public library or university library.</p>
+
         <hr>
     </section>
-    <section class="content">
-        {#if $research != null}
-            <p>{$research.length} records found.</p>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Year</th>
-                        <th>Authors</th>
-                        <th>Abstract</th>
-                        <th>Date added</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {#each $research as rec (rec.title)}
-                        <tr>
-                            <td><a href="{link2href(rec.link)}" target="_NEW">{rec.title}</a></td>
-                            <td>{rec.year}</td>
-                            <td>{rec.authors.join(", ")}</td>
-                            <td>{rec.abstract.slice(0, 100)}&hellip;</td>
-                            <td>{(new Date(rec.dateAdded)).toISOString().slice(0, 10)}</td>
-                        </tr>
-                    {/each}
-                </tbody>
-            </table>
-        {:else}
-            <p>Error fetching data</p>
-        {/if}
 
-    </section>
+    <SearchForm/>
+
+    <DataTabs/>
+
 </main>
 
 <style>

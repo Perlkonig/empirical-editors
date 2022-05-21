@@ -1,41 +1,48 @@
 [
     {
+        "id": "79fc2641-6d67-4ad1-9f7d-7dac19a6d984",
         "title": "Calgary (City of) v. International Association of Fire Fighters (Local 255), 2006 ABQB 133",
         "link": "https://www.canlii.org/en/ab/abqb/doc/2006/2006abqb133/2006abqb133.html",
         "notes": "Alberta Court of Queen's Bench decision in which part of the case (see para. 92+) revolved around drafting confusion around small-B \"benefit\" and capital-B \"Benefit\"; I use this when trying to convince lawyers that capitalized formal terms are problematic. If there's only one of a thing, it doesn't need a cap, and if there's more of one thing, then a capital letter isn't sufficient differentiation.",
         "dateAdded": 1652907774897
     },
     {
+        "id": "821dbbff-4cda-4d38-b1ab-555cc708effc",
         "title": "O'Connor v. Oakhurst Dairy: District Court of Maine, Portland; US Court of Appeals, First Circuit, Docket 16-1901",
         "link": "http://media.ca1.uscourts.gov/pdf.opinions/16-1901P-01A.pdf",
         "notes": "US court decision revolving around the serial comma",
         "dateAdded": 1652907774897
     },
     {
+        "id": "bf1d39f5-92d7-4369-b104-0e11ec36809a",
         "title": "The High Cost of Bureaucratic Written Communication",
         "link": "doi:10.1016/0007-6813(91)90068-7",
         "notes": "Article",
         "dateAdded": 1652907774897
     },
     {
+        "id": "5ffd3d43-e934-4d74-9bab-6ef2ccadf876",
         "title": "Alberta Agriculture saves money with plain language",
-        "link": "http://www.clarity-international.net/wp-content/uploads/2015/05/Clarity-no-38-bookmarked.pdf",
+        "link": "https://www.clarity-international.org/wp-content/uploads/2020/07/Clarity-no-38-bookmarked.pdf",
         "notes": "Article about how fixing a form saved $3.5 million/year",
         "dateAdded": 1652907774897
     },
     {
+        "id": "6aa271a3-4932-4938-8fc9-56dd35a779fe",
         "title": "Plain English and the law",
-        "link": "https://www.victorialawfoundation.org.au/resource/plain-english-and-law-report-no-9",
+        "link": "https://www.lawreform.vic.gov.au/wp-content/uploads/2022/04/Plain-English-and-the-Law-republished_forweb.pdf",
         "notes": "Commission report",
         "dateAdded": 1652907774897
     },
     {
+        "id": "674bb3c1-8fcc-4ef8-90fd-37fe1ef35d04",
         "title": "Plain Language: Its Effect on Organizational Performance",
-        "link": "http://www.clarity-international.net/wp-content/uploads/2015/05/Clarity-no-51-bookmarked.pdf",
+        "link": "https://www.clarity-international.org/wp-content/uploads/2020/07/Clarity-no-51-bookmarked.pdf",
         "notes": "Article about how changing documentation for internal staff saved $1-$5 million/year",
         "dateAdded": 1652907774897
     },
     {
+        "id": "febd2c92-f90b-45c1-a1cc-067368ac7304",
         "title": "The Notion of \"Tested\" Contract Language",
         "link": "http://www.adamsdrafting.com/tested-contract-language-has-friends-in-high-places/",
         "notes": "Blog post",
