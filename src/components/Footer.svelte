@@ -1,7 +1,6 @@
 <footer>
     <p>Copyright &copy; 2022 Aaron Dalton</p>
-
-    <p>To submit new material or to make corrections, please contact me via one of the many avenues listed on my blog (<a href="https://www.perlkonig.com/about">https://www.perlkonig.com/about</a>). I'd love to see many more studies, including in areas of graphic design.</p>
+    <p>The source code for this site is <a href="https://github.com/Perlkonig/empirical-editors">available on GitHub</a>. The lists of articles are also available in JSON format: <a href="./data/research.json">research</a>, <a href="./data/casestudies.json">case studies</a>.</p>
 </footer>
 
 <style>

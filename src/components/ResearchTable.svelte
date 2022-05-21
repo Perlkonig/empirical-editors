@@ -37,7 +37,6 @@
                     <th>Year</th>
                     <th>Authors</th>
                     <th>Abstract</th>
-                    <th>Date added</th>
                 </tr>
             </thead>
             <tbody>
@@ -47,7 +46,6 @@
                         <td>{rec.year}</td>
                         <td>{rec.authors.join(", ")}</td>
                         <td>{rec.abstract.slice(0, 100)}&hellip;</td>
-                        <td>{(new Date(rec.dateAdded)).toISOString().slice(0, 10)}</td>
                     </tr>
                 {/each}
             </tbody>

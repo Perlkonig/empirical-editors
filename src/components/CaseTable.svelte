@@ -18,7 +18,6 @@
                 <tr>
                     <th>Title</th>
                     <th>Notes</th>
-                    <th>Date added</th>
                 </tr>
             </thead>
             <tbody>
@@ -26,7 +25,6 @@
                     <tr>
                         <td><a href="{link2href(rec.link)}" target="_NEW">{rec.title}</a></td>
                         <td>{rec.notes}</td>
-                        <td>{(new Date(rec.dateAdded)).toISOString().slice(0, 10)}</td>
                     </tr>
                 {/each}
             </tbody>
