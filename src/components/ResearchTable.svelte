@@ -60,7 +60,11 @@
           <div class="box">
             <p class="title"><a href="{link2href(selectedRec ? selectedRec.link : "")}" target="_NEW">{selectedRec ? selectedRec.title : ""}</a></p>
             <p class="year">{selectedRec ? selectedRec.year : ""}, {selectedRec ? selectedRec.authors.join(", ") : ""}</p>
-            <p class="abstract">{selectedRec ? selectedRec.abstract.split("\n").join('</p><p class="abstract">') : ""}</p>
+            {#if selectedRec}
+                {#each selectedRec.abstract.split("\n") as chunk}
+                    <p class="abstract">{chunk}</p>
+                {/each}
+            {/if}
             <p class="added">Added {selectedRec ? (new Date(selectedRec.dateAdded)).toISOString().slice(0, 10) : ""}</p>
             <button class="button is-success" on:click="{() => modalActive = ""}">Close</button>
           </div>
