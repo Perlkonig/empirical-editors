@@ -5,7 +5,7 @@
 
 <main>
     <section class="content" id="introText">
-        <p>This is a list of empirical research related to topics of interest to editors. Links are to permanent landing pages wherever possible (DOIs). The full text of many of these articles can be had through your public library or university library.</p>
+        <p>This is a list of empirical research related to topics of interest to editors. Its permanent home is <a href="http://aarondalton.ca/EmpiricalEditors">http://AaronDalton.ca/EmpiricalEditors</a>. Links are to permanent landing pages wherever possible (DOIs). The full text of many of these articles can be had through your public library or university library.</p>
 
         <p>It's trivial to find websites and style guides that advocate various approaches, but finding real evidence—primary sources—can be challenging. This list is the result of my own searching for such sources. It is provided as is. Some of these studies may contradict each other or contradict some pet practice. Some are quite old. Perhaps some have been debunked. As always, use science responsibly.</p>
 

@@ -6,5 +6,8 @@
 <style>
     footer {
 	    font-size: smaller;
+        padding-top: 1em;
+        margin-top: 1em;
+        border-top: 1px solid black;
     }
 </style>
