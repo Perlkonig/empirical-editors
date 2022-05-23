@@ -13,7 +13,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "local": "npm run build && npm run start"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",

@@ -18,8 +18,8 @@
         modalActive = "is-active";
         return false;
     };
-    const handleKeydown = (event) => {
-        if (event.keyCode === 27) {
+    const handleKeydown = (event: KeyboardEvent) => {
+        if (event.key === "Escape") {
             modalActive = "";
         }
     };
