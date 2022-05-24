@@ -10,10 +10,38 @@
         }
     };
 
+    type ValidSort = "titleA" | "titleD" | "yearA" | "yearD";
+    let sort: ValidSort = "titleA";
+    const toggleSort = (col: "title"|"year"): void => {
+        if (col === "title") {
+            if (sort === "titleA") {
+                sort = "titleD";
+            } else {
+                sort = "titleA";
+            }
+        } else {
+            if (sort === "yearA") {
+                sort = "yearD";
+            } else {
+                sort = "yearA";
+            }
+        }
+    };
+    const sortRecs = (recs: ResearchRecord[], sort: ValidSort): ResearchRecord[] => {
+        if (sort === "titleD") {
+            return recs.sort((a, b) => {return (b.title < a.title) ? -1 : 1;});
+        } else if (sort === "yearA") {
+            return recs.sort((a, b) => {return a.year - b.year;});
+        } else if (sort === "yearD") {
+            return recs.sort((a, b) => {return b.year - a.year;});
+        } else {
+            return recs.sort((a, b) => {return (a.title < b.title) ? -1 : 1;});
+        }
+    };
+
     let selectedRec: ResearchRecord;
     let modalActive = "";
     const showModal = (rec: ResearchRecord): boolean => {
-        console.log("Row clicked\n" + selectedRec);
         selectedRec = rec;
         modalActive = "is-active";
         return false;
@@ -33,14 +61,14 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>Title</th>
-                    <th>Year</th>
+                    <th on:click="{() => toggleSort("title")}">Title</th>
+                    <th on:click="{() => toggleSort("year")}">Year</th>
                     <th>Authors</th>
                     <th>Abstract</th>
                 </tr>
             </thead>
             <tbody>
-                {#each $research as rec (rec.title)}
+                {#each sortRecs($research, sort) as rec (rec.title)}
                     <tr on:click="{() => showModal(rec)}">
                         <td><a href="{link2href(rec.link)}" target="_NEW">{rec.title}</a></td>
                         <td>{rec.year}</td>
