@@ -2556,5 +2556,26 @@
         "link": "https://www.routledge.com/Plain-Language-and-Ethical-Action-A-Dialogic-Approach-to-Technical-Content/Willerton/p/book/9780415741040",
         "abstract": "Plain Language and Ethical Action examines and evaluates principles and practices of plain language that technical content producers can apply to meet their audiences' needs in an ethical way. Applying the BUROC framework (Bureaucratic, Unfamiliar, Rights-Oriented, and Critical) to identify situations in which audiences will benefit from plain language, this work offers in-depth profiles show how six organizations produce effective plain-language content. The profiles show plain-language projects done by organizations ranging from grassroots volunteers on a shoe-string budget, to small nonprofits, to consultants completing significant federal contacts. End-of-chapter questions and exercises provide tools for students and practitioners to reflect on and apply insights from the book. Reflecting global commitments to plain language, this volume includes a case study of a European group based in Sweden along with results from interviews with plain-language experts around the world, including Canada, England, South Africa. Portugal, Australia, and New Zealand.",
         "dateAdded": 1653245778000
+    },
+    {
+        "id": "08669712-f06a-4892-abf7-786541c55487",
+        "title": "Towards Individuated Reading Experiences: Different Fonts Increase Reading Speed for Different Individuals",
+        "authors": [
+            "Wallace",
+            "Bylinskii",
+            "Dobres",
+            "Kerr",
+            "Berlow",
+            "Treitman",
+            "Kumawat",
+            "Arpin",
+            "Miller",
+            "Huang",
+            "Sawyer"
+        ],
+        "year": 2022,
+        "link": "doi:10.1145/3502222",
+        "abstract": "In our age of ubiquitous digital displays, adults often read in short, opportunistic interludes. In this context of Interlude Reading, we consider if manipulating font choice can improve adult readers’ reading outcomes. Our studies normalize font size by human perception and use hundreds of crowdsourced participants to provide a foundation for understanding, which fonts people prefer and which fonts make them more effective readers. Participants’ reading speeds (measured in words-per-minute (WPM)) increased by 35% when comparing fastest and slowest fonts without affecting reading comprehension. High WPM variability across fonts suggests that one font does not fit all. We provide font recommendations related to higher reading speed and discuss the need for individuation, allowing digital devices to match their readers’ needs in the moment. We provide recommendations from one of the most significant online reading efforts to date. To complement this, we release our materials and tools with this article.",
+        "dateAdded": 1653598540000
    }
 ]
