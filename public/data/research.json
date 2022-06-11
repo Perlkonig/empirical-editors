@@ -2577,5 +2577,40 @@
         "link": "doi:10.1145/3502222",
         "abstract": "In our age of ubiquitous digital displays, adults often read in short, opportunistic interludes. In this context of Interlude Reading, we consider if manipulating font choice can improve adult readers’ reading outcomes. Our studies normalize font size by human perception and use hundreds of crowdsourced participants to provide a foundation for understanding, which fonts people prefer and which fonts make them more effective readers. Participants’ reading speeds (measured in words-per-minute (WPM)) increased by 35% when comparing fastest and slowest fonts without affecting reading comprehension. High WPM variability across fonts suggests that one font does not fit all. We provide font recommendations related to higher reading speed and discuss the need for individuation, allowing digital devices to match their readers’ needs in the moment. We provide recommendations from one of the most significant online reading efforts to date. To complement this, we release our materials and tools with this article.",
         "dateAdded": 1653598540000
+    },
+    {
+        "id": "32db0697-9ae4-4407-9af5-14f575bf932d",
+        "title": "What makes a 'good' title and (how) does it matter for citations? A review and general model of article title attributes in management science",
+        "authors": [
+            "Nair",
+            "Gibbert"
+        ],
+        "year": 2016,
+        "link": "doi:10.1007/s11192-016-1937-y",
+        "abstract": "What makes a \"good\" title for an article, i.e. one which might attract citations in the academic community? Answers to this question are manifold, though inconclusive across disciplines. In an attempt to provide cohesion, we integrate significant title characteristics from previous studies across disciplines into a comprehensive model and link it with citation count. Keeping the application context constant, we focus on management science and find that only non-alpha numeric characters and a balanced title structure have small, but significant effects on citation count. Surprisingly, attributes which tended to show significant effects in other disciplines (though often in opposite directions), such as length, context, and linguistic attributes exhibited no relationship with citation count.",
+        "dateAdded": 1654605062000
+    },
+    {
+        "id": "649aff59-deb2-4be4-9986-3fedd7bb1f2f",
+        "title": "A survey of young people's reading: thinking about fiction",
+        "authors": [
+            "MacKay",
+            "Smyth"
+        ],
+        "year": 2008,
+        "link": "doi:10.1080/13614540802170379",
+        "abstract": "This article reports on selected results of a wide-ranging online survey of children's reading, carried out in 2005 by the National Centre for Research in Children's Literature. With 4182 responses from children from Key Stages 1 to 4 (aged from 4 to 16 years), the survey is a follow-up to a similar study completed in 1996. This article concentrates on the participants' responses to questions about fiction reading; key conclusions in this area include the fact that the majority at least 'sometimes' read storybooks/fiction and that the continuing significance of the Harry Potter series is reinforced by the survey. This can be seen in the fact that Potter was the favourite storybook/fictional character for all three Key Stage groups, and the series was quoted as being the favourite story/fictional book by all three age groups. In addition, the participants' preferences for main characters in their fiction showed that their likes were in many cases reflected by their dislikes. That is, where boys generally disliked reading about a certain type of character (e.g. 'a girl'), on the whole the girls liked reading about the same type of character.",
+        "dateAdded": 1654605062000
+    },
+    {
+        "id": "91d6effc-2a2d-42b9-bb95-59f0c824609e",
+        "title": "Improving Document Review Practices in Pharmaceutical Companies",
+        "authors": [
+            "Bernhardt"
+        ],
+        "year": 2003,
+        "link": "doi:10.1177/1050651903255345",
+        "abstract": "Document review practices in the research and development functions of many pharmaceutical companies can be frustrating and inefficient, at least in part because these practices are poorly managed. Although the literature on review practice is fairly robust, there is a disjuncture between what researchers know and how reviewers work. The author draws on his experience as a consultant and trainer to many pharmaceutical companies to outline the causes and effects of poor review practice. He offers recommendations to enhance the value and increase the efficiency of reviews.",
+        "dateAdded": 1654605062000
    }
 ]
