@@ -2612,5 +2612,37 @@
         "link": "doi:10.1177/1050651903255345",
         "abstract": "Document review practices in the research and development functions of many pharmaceutical companies can be frustrating and inefficient, at least in part because these practices are poorly managed. Although the literature on review practice is fairly robust, there is a disjuncture between what researchers know and how reviewers work. The author draws on his experience as a consultant and trainer to many pharmaceutical companies to outline the causes and effects of poor review practice. He offers recommendations to enhance the value and increase the efficiency of reviews.",
         "dateAdded": 1654605062000
+   },
+   {
+        "id": "e0415835-6d2b-4c99-a0ff-06f3f27e4362",
+        "title": "Effect of Exposure to Visual Campaigns and Narrative Vignettes on Addiction Stigma Among Health Care Professionals: A Randomized Clinical Trial",
+        "authors": [
+            "Kennedy-Hendricks",
+            "McGinty",
+            "Summers",
+            "Krenn",
+            "Fingerhood",
+            "Barry"
+        ],
+        "year": 2022,
+        "link": "doi:10.1001/jamanetworkopen.2021.46971",
+        "abstract": "**Question:** Are specific communication strategies effective in reducing stigma toward people with opioid use disorder (OUD) among health care professionals? **Findings:** In this randomized clinical trial involving a national sample of 1842 health care professionals, exposure to visual campaigns combined with short narrative vignettes told from the perspective of a patient with OUD that emphasized the harm of stigmatizing language or the effectiveness of medications for treating OUD was associated with reduced levels of stigma. **Meaning:** The findings of this randomized clinical trial suggest that carefully designed communication campaigns may reduce OUD-related stigma among health care professionals.",
+        "dateAdded": 1778351004000
+   },
+   {
+        "id": "999020ee-8825-4584-a1e2-2551f4cd52cb",
+        "title": "'Zombie drugs': Dehumanising news frames and public stigma towards people who use drugs",
+        "authors": [
+            "Sumnall ",
+            "Holland",
+            "Atkinson",
+            "Montgomery",
+            "Nicholls",
+            "Maynard"
+        ],
+        "year": 2025,
+        "link": "doi:10.1016/j.drugpo.2025.104714",
+        "abstract": "News media is an important determinant of public understanding of drug policy topics. Recent media reporting around the use of synthetic drugs such as xylazine makes frequent use of non-human metaphors, including reference to the effects of ‘zombie drugs’. We investigated whether presentation of news stories which included such dehumanising frames were associated with i) increased stigmatising attitudes towards people who use drugs; and ii) lower support for relevant harm reduction programmes. Our study is the first to show that dehumanising ‘zombie’ framing frequently used in news reporting is associated with higher public stigma towards people who use drugs. News media is an important source of public education on drugs, so to avoid reinforcing stigma the use of dehumanising language and framing, such as ‘zombie’ metaphors, should be avoided. Organisations working to reduce stigma towards people who use drugs should encourage news outputs and journalists to avoid this type of representation.",
+        "dateAdded": 1778351004000
    }
 ]
